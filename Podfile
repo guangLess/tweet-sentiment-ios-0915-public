@@ -4,14 +4,12 @@
 # use_frameworks!
 
 target 'FIS-Tweets' do
-
+  pod 'STTwitter'
 end
 
 target 'FIS-TweetsTests' do
-
   pod 'Specta'
   pod 'Expecta'                                                 
   pod 'OHHTTPStubs'
 
 end
-
